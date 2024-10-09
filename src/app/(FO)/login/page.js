@@ -90,8 +90,8 @@ export default function LoginPage() {
           </div>
         )}
         <div className="flex justify-between mt-4 text-sm">
-          <span className="cursor-pointer">아이디 찾기</span>
-          <span className="cursor-pointer">비밀번호 찾기</span>
+          <Link href="/login/search/id"><span className="cursor-pointer">아이디 찾기</span></Link>
+          <Link href="/login/search/pwd"><span className="cursor-pointer">비밀번호 찾기</span></Link>
           <Link href="/reg" className="cursor-pointer text-blue-500">회원가입</Link>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function SearchIdPage() {
                         <h2 className="text-xl font-semibold mb-2">개인회원</h2>
                         <div className="flex items-center mb-4">
                             <input type="radio" />
-                            <label htmlFor="individual" className="mx-2">번호 인증</label>
+                            <label htmlFor="individual" className="mx-2"> 휴대폰 번호 인증</label>
                         </div>
                         <div className="mb-4">
                             <input
@@ -27,8 +27,25 @@ export default function SearchIdPage() {
                                 placeholder="이름"
                             />
                         </div>
-                        <div className="mb-4 flex">
-
+                        <div className="mb-4">
+                            <input
+                                className="shadow appearance-none border rounded w-1/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="name"
+                                type="text"
+                                placeholder="휴대폰 번호"
+                            />
+                            <label className="mx-3">-</label>
+                            <input
+                                className="shadow appearance-none border rounded w-1/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="name"
+                                type="text"
+                            />
+                            <label className="mx-3">-</label>
+                            <input
+                                className="shadow appearance-none border rounded w-1/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="name"
+                                type="text"
+                            />
                         </div>
                     </div>
                 </form>
@@ -48,14 +65,19 @@ export default function SearchIdPage() {
                                 placeholder="기업명"
                             />
                         </div>
-                        <div className="mb-4 flex">
-
+                        <div className="mb-4">
+                            <input
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                id="name"
+                                type="text"
+                                placeholder="사업자 등록 번호"
+                            />
                         </div>
                     </div>
                 </form>
             </div>
             <div className="flex justify-center items-center mt-10">
-                <button className="text-lg">아이디 찾기</button>
+                <button className="text-lg p-3 bg-blue-500 text-white rounded ">아이디 찾기</button>
             </div>
 
         </div>
